@@ -21,12 +21,13 @@ To develop a robust NER system for the Arabic language to support information ex
 
 ## 📦 Dataset
 
-- **Name**: [ANERCorp (Arabic Named Entity Corpus)](http://www1.ccls.columbia.edu/~cadim/anercorp/)
+- **Name**: [ANERCorp (Arabic Named Entity Corpus)](https://huggingface.co/datasets/asas-ai/ANERCorp)
 - **Labels**:  
   - `PER`: Person  
   - `LOC`: Location  
   - `ORG`: Organization  
-  - `O`: Other  
+  - `O`: Other
+  - `Misc`: Miscellaneous
 - **Format**: IOB (Inside-Outside-Beginning)  
 - **Preprocessing**:
   - Tokenization  
@@ -61,20 +62,19 @@ An interactive web app is built using Streamlit to allow users to explore and te
 
 ## 📁 Repository Structure
 
+```
 Arabic-NER-BiLSTM/
-
 │
-├── Arabic_NER.ipynb # Jupyter notebook for training and evaluating the model
-├── app.py # Streamlit application
-├── ner_model.keras # Trained BiLSTM model
-├── word2idx.pkl # Word-to-index mapping
-├── tag2idx.pkl # Tag-to-index mapping
-├── tags.pkl # List of all tag labels
-├── punctuations.pkl # List of Arabic punctuation
-├── stop_words.pkl # Arabic stop words
-└── README.md # Project documentation
-
----
+├── Arabic_NER.ipynb         # Jupyter notebook for training and evaluating the model
+├── app.py                   # Streamlit application
+├── ner_model.keras          # Trained BiLSTM model
+├── word2idx.pkl             # Word-to-index mapping
+├── tag2idx.pkl              # Tag-to-index mapping
+├── tags.pkl                 # List of all tag labels
+├── punctuations.pkl         # List of Arabic punctuation
+├── stop_words.pkl           # Arabic stop words
+└── README.md                # Project documentation
+```
 
 ## 🚀 Run the App
 
