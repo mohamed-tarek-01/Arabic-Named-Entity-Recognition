@@ -26,9 +26,9 @@ To develop a robust NER system for the Arabic language to support information ex
   - `Misc`: Miscellaneous
 - **Format**: IB (Inside-Beginning)  
 - **Preprocessing**:
-  - Tokenization  
-  - Integer encoding  
-  - Sequence padding  
+  - Mapping of words and tags to integers
+  - Augmentation
+  - Sequence padding
 
 
 ## 📈 Model Training & Evaluation
