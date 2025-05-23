@@ -4,7 +4,6 @@
 
 This project focuses on building an Arabic Named Entity Recognition (NER) model using a Bidirectional Long Short-Term Memory (BiLSTM) network. It identifies and classifies named entities like **Person**, **Location**, and **Organization** from Arabic text.
 
----
 
 ## 🎯 Project Objective
 
