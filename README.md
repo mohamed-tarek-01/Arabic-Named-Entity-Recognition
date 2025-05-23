@@ -10,14 +10,11 @@ This project focuses on building an Arabic Named Entity Recognition (NER) model 
 
 To develop a robust NER system for the Arabic language to support information extraction tasks by classifying tokens into named entity categories. This is especially important given the scarcity of NLP resources for Arabic.
 
----
 
 ## 🧰 Model Overview
 
 - **Architecture**: BiLSTM (Bidirectional LSTM) model.
 - **Why BiLSTM?**: It reads input sequences in both directions (forward and backward), capturing context from both sides — crucial for accurate entity classification.
-
----
 
 ## 📦 Dataset
 
@@ -34,7 +31,6 @@ To develop a robust NER system for the Arabic language to support information ex
   - Integer encoding  
   - Sequence padding  
 
----
 
 ## 📈 Model Training & Evaluation
 
@@ -43,8 +39,6 @@ To develop a robust NER system for the Arabic language to support information ex
 - **TimeDistributed Dense Layer**: Predicts entity tag for each token.
 - **Loss Function**: Categorical cross-entropy.
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score.
-
----
 
 ## 🖥️ Streamlit Application
 
@@ -57,8 +51,6 @@ An interactive web app is built using Streamlit to allow users to explore and te
 - **🧰 Preprocessing Insight**: See how text is cleaned, normalized, and filtered before prediction.
 - **📥 Export Option**: Download entity predictions as a CSV file for further analysis.
 - **💡 Session Memory**: Keeps user input and predictions across tabs for seamless exploration.
-
----
 
 ## 📁 Repository Structure
 
