@@ -67,12 +67,6 @@ Arabic-NER-BiLSTM/
 │
 ├── Arabic_NER.ipynb         # Jupyter notebook for training and evaluating the model
 ├── app.py                   # Streamlit application
-├── ner_model.keras          # Trained BiLSTM model
-├── word2idx.pkl             # Word-to-index mapping
-├── tag2idx.pkl              # Tag-to-index mapping
-├── tags.pkl                 # List of all tag labels
-├── punctuations.pkl         # List of Arabic punctuation
-├── stop_words.pkl           # Arabic stop words
 └── README.md                # Project documentation
 ```
 
