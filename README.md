@@ -28,7 +28,7 @@ To develop a robust NER system for the Arabic language to support information ex
   - `ORG`: Organization  
   - `O`: Other
   - `Misc`: Miscellaneous
-- **Format**: IOB (Inside-Outside-Beginning)  
+- **Format**: IB (Inside-Beginning)  
 - **Preprocessing**:
   - Tokenization  
   - Integer encoding  
