@@ -36,7 +36,7 @@ To develop a robust NER system for the Arabic language to support information ex
 - **Embedding Layer**: Transforms tokens into dense vectors.
 - **BiLSTM Layer**: Captures sequential context.
 - **TimeDistributed Dense Layer**: Predicts entity tag for each token.
-- **Loss Function**: Categorical cross-entropy.
+- **Loss Function**: Sparse Categorical cross-entropy.
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score.
 
 ## 🖥️ Streamlit Application
