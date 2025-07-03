@@ -96,7 +96,7 @@ def predict(text, model, word2idx, tags, stop_words, punctuations):
 
 st.title(" Arabic Named Entity Recognition (NER)")
 
-tab1, tab2, tab3, tab4 = st.tabs(["🔍 Analysis", "📊 Statistics", "🧰 Preprocessing"])
+tab1, tab2, tab3 = st.tabs(["🔍 Analysis", "📊 Statistics", "🧰 Preprocessing"])
 
 with tab1:
     st.markdown("## ✍️ Enter Text or Use Sample")
